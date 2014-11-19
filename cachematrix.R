@@ -1,10 +1,8 @@
-## Put comments here that give an overall description of what your functions do
 ## These two functions will create special object of the matrix class along with
 ## methods that will allow accessing this matrix and computing inversion,
 ## storing it in cache and retrieving the inversion from cache if the matrix
 ## hasn't changed.
 
-## Write a short comment describing this function
 ## This function will allow users to create special matrix object and allow them
 ## to access it.
 
@@ -23,8 +21,6 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 }
 
-
-## Write a short comment describing this function
 ## Following function will check whether the matrix inversion has been already
 ## computed and if not, it will do it by calling the solve function.
 
